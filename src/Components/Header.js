@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Button, Container, Form, FormControl, Nav, Navbar} from "react-bootstrap";
 import logo from '../logo.svg';
-import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
+import {Route, Switch, HashRouter} from "react-router-dom";
 import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contacts from "../Pages/Contacts";
@@ -13,7 +13,7 @@ class Header extends Component {
       <>
         <Navbar collapseOnSelect expand={"lg"} bg={"dark"} variant={"dark"}>
           <Container>
-            <Navbar.Brand href={"/reactjs-tutorial"}>
+            <Navbar.Brand href={"/reactjs-tutorial/#/"}>
               <img
                 src={logo}
                 height={30}
@@ -25,10 +25,10 @@ class Header extends Component {
             <Navbar.Toggle aria-controls={"responsive-navbar-nav"}/>
             <Navbar.Collapse id={"responsive-navbar-nav"}>
               <Nav className={"mr-auto"}>
-                <Nav.Link href={"/reactjs-tutorial"}> Home </Nav.Link>
-                <Nav.Link href={"/reactjs-tutorial/about"}> About us </Nav.Link>
-                <Nav.Link href={"/reactjs-tutorial/contacts"}> Contacts </Nav.Link>
-                <Nav.Link href={"/reactjs-tutorial/blog"}> Blog </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/#/"}> Home </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/#/about"}> About us </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/#/contacts"}> Contacts </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/#/blog"}> Blog </Nav.Link>
               </Nav>
               <Form inline>
                 <FormControl
@@ -42,14 +42,14 @@ class Header extends Component {
           </Container>
         </Navbar>
 
-        <Router basename={"/reactjs-tutorial"}>
+        <HashRouter basename={"reactjs-tutorial/#/"}>
           <Switch>
             <Route exact path={"/"} component={Home} />
             <Route exact path={"/about"} component={About} />
             <Route exact path={"/contacts"} component={Contacts} />
             <Route exact path={"/blog"} component={Blog} />
           </Switch>
-        </Router>
+        </HashRouter>
       </>
     );
   }
