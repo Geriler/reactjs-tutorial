@@ -13,7 +13,7 @@ class Header extends Component {
       <>
         <Navbar collapseOnSelect expand={"lg"} bg={"dark"} variant={"dark"}>
           <Container>
-            <Navbar.Brand href={"/"}>
+            <Navbar.Brand href={"/reactjs-tutorial/"}>
               <img
                 src={logo}
                 height={30}
@@ -25,10 +25,10 @@ class Header extends Component {
             <Navbar.Toggle aria-controls={"responsive-navbar-nav"}/>
             <Navbar.Collapse id={"responsive-navbar-nav"}>
               <Nav className={"mr-auto"}>
-                <Nav.Link href={"/"}> Home </Nav.Link>
-                <Nav.Link href={"/about"}> About us </Nav.Link>
-                <Nav.Link href={"/contacts"}> Contacts </Nav.Link>
-                <Nav.Link href={"/blog"}> Blog </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/"}> Home </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/about"}> About us </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/contacts"}> Contacts </Nav.Link>
+                <Nav.Link href={"/reactjs-tutorial/blog"}> Blog </Nav.Link>
               </Nav>
               <Form inline>
                 <FormControl
@@ -44,10 +44,10 @@ class Header extends Component {
 
         <Router>
           <Switch>
-            <Route exact path={"/"} component={Home} />
-            <Route exact path={"/about"} component={About} />
-            <Route exact path={"/contacts"} component={Contacts} />
-            <Route exact path={"/blog"} component={Blog} />
+            <Route exact path={"/reactjs-tutorial/"} component={Home} />
+            <Route exact path={"/reactjs-tutorial/about"} component={About} />
+            <Route exact path={"/reactjs-tutorial/contacts"} component={Contacts} />
+            <Route exact path={"/reactjs-tutorial/blog"} component={Blog} />
           </Switch>
         </Router>
       </>
