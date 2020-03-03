@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/reactjs-tutorial/static/css/main.d1b05096.chunk.css",
-    "main.js": "/reactjs-tutorial/static/js/main.3996f718.chunk.js",
-    "main.js.map": "/reactjs-tutorial/static/js/main.3996f718.chunk.js.map",
+    "main.js": "/reactjs-tutorial/static/js/main.f3013178.chunk.js",
+    "main.js.map": "/reactjs-tutorial/static/js/main.f3013178.chunk.js.map",
     "runtime-main.js": "/reactjs-tutorial/static/js/runtime-main.251486cc.js",
     "runtime-main.js.map": "/reactjs-tutorial/static/js/runtime-main.251486cc.js.map",
     "static/css/2.47e06e2e.chunk.css": "/reactjs-tutorial/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.e4fa60d7.chunk.js": "/reactjs-tutorial/static/js/2.e4fa60d7.chunk.js",
-    "static/js/2.e4fa60d7.chunk.js.map": "/reactjs-tutorial/static/js/2.e4fa60d7.chunk.js.map",
+    "static/js/2.7dde47ae.chunk.js": "/reactjs-tutorial/static/js/2.7dde47ae.chunk.js",
+    "static/js/2.7dde47ae.chunk.js.map": "/reactjs-tutorial/static/js/2.7dde47ae.chunk.js.map",
     "index.html": "/reactjs-tutorial/index.html",
-    "precache-manifest.b26ceb9579afb63730861eb77eaad39e.js": "/reactjs-tutorial/precache-manifest.b26ceb9579afb63730861eb77eaad39e.js",
+    "precache-manifest.7457deb64b13cfe2ca5fbe181b82cf67.js": "/reactjs-tutorial/precache-manifest.7457deb64b13cfe2ca5fbe181b82cf67.js",
     "service-worker.js": "/reactjs-tutorial/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/reactjs-tutorial/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.d1b05096.chunk.css.map": "/reactjs-tutorial/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.e4fa60d7.chunk.js.LICENSE.txt": "/reactjs-tutorial/static/js/2.e4fa60d7.chunk.js.LICENSE.txt",
-    "static/media/code.jpg": "/reactjs-tutorial/static/media/code.591c4fc6.jpg",
-    "static/media/desktop.jpeg": "/reactjs-tutorial/static/media/desktop.df4666f6.jpeg",
+    "static/js/2.7dde47ae.chunk.js.LICENSE.txt": "/reactjs-tutorial/static/js/2.7dde47ae.chunk.js.LICENSE.txt",
+    "static/media/code.jpg": "/reactjs-tutorial/static/media/code.1511303d.jpg",
+    "static/media/desktop.jpg": "/reactjs-tutorial/static/media/desktop.37849796.jpg",
     "static/media/logo.svg": "/reactjs-tutorial/static/media/logo.5d5d9eef.svg",
-    "static/media/network.jpeg": "/reactjs-tutorial/static/media/network.79e3f1db.jpeg"
+    "static/media/network.jpg": "/reactjs-tutorial/static/media/network.4d4d1401.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.251486cc.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.e4fa60d7.chunk.js",
+    "static/js/2.7dde47ae.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.3996f718.chunk.js"
+    "static/js/main.f3013178.chunk.js"
   ]
 }
